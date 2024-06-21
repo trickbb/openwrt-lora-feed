@@ -13,6 +13,6 @@ LUCI_DEPENDS:=+luci-base +packet-forwarder
 PKG_MAINTAINER:=Marcus Schref <mschref@tdt.de>
 PKG_LICENSE:=Apache-2.0
 
-include ../../luci.mk
+include ./luci/luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
