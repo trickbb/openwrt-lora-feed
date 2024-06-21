@@ -1,0 +1,14 @@
+{
+	"luci-app-lorawan-classic": {
+		"description": "Grant UCI access for luci-app-lorawan-classic",
+		"read": {
+			"file": {
+				"/tmp/lora/log": [ "read" ]
+			},
+			"uci": [ "lora" ]
+		},
+		"write": {
+			"uci": [ "lora" ]
+		}
+	}
+}

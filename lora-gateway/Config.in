@@ -2,6 +2,6 @@ if PACKAGE_libloragw
 
 	config SX1301_SPI_PATH
 		string "SPI Dev Path"
-		default /dev/spidev1.0
+		default /dev/spidev0.0
 
 endif
